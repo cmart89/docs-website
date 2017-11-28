@@ -56,12 +56,62 @@ order: 1
 </div>
 
 
-<div class="expandable">
-	<div class="expandable__trigger"><span class="glyphicon expandable__glyph glyphicon-triangle-bottom"> </span>
-		<h3 class="expandable__heading"><a class="expandable__link" href="#" aria-expanded="false">When can I enroll? </a></h3></div>
-		<div class="expandable__target expandable__target--child">
-
-			<p> Open enrollment begins on November 1, 2017 and ends on January 31, 2018. If you want your coverage to start on January 1, 2018 you must pick a plan by December 15, 2017. Individuals with <a href="/individuals-and-families/getting-covered/special-enrollment">special qualifying life events</a> can enroll at any time of the year. <a href="/medi-cal">Medi-Cal</a> enrollment is also year-round. Medi-Cal and Covered California use the same application. After you enter your information, you will find out whether you qualify for Medi-Cal or Covered California.</p>
-		</div>
+<div class="expandable expandable--fa">
+	<div class="expandable__trigger">
+		<span class="fa fa-plus-circle expandable__glyph"> </span>
+		<h3 class="expandable__heading"><a class="expandable__link" href="#" aria-expanded="false">Code Snippet</a></h3>
 	</div>
+	<div class="expandable__target">
+		<pre style="width:100%;overflow: auto;">
+			<code class="hljs xml">
+  &lt;div class="row margin-top-65--desktop"&gt;
+    &lt;div class="col-md-4 col-sm-6"&gt;
+      &lt;div class="action-btns hidden-md visible-xs"&gt;
+        &lt;a href="/about" class="action-btns__link"&gt;
+          &lt;div class="action-btns__layout action-btns__layout--home action-btns__layout--mid-gray"&gt;
+            &lt;i class="icon--finger-point-to-paper"&gt;&lt;/i&gt;
+            &lt;h2 class="action-btns__heading action-btns__heading--two-lines"&gt;How to Enroll&lt;/h2&gt;
+          &lt;/div&gt; 
+        &lt;/a&gt; 
+      &lt;/div&gt;
+      &lt;div class="action-btns"&gt;
+        &lt;a href="/individuals-and-families/getting-covered/health-care-costs" class="action-btns__link"&gt;
+          &lt;div class="action-btns__layout action-btns__layout--home action-btns__layout--green"&gt;
+            &lt;i class="icon--money"&gt;&lt;/i&gt;
+            &lt;h2 class="action-btns__heading action-btns__heading--two-lines"&gt;See If You Qualify for Financial Help&lt;/h2&gt;
+          &lt;/div&gt;
+        &lt;/a&gt; 
+      &lt;/div&gt;
+      &lt;div class="action-btns"&gt;
+        &lt;a href="https://apply.coveredca.com/apspahbx/ahbxanonym.portal?_nfpb=true&amp;amp;_st=&amp;amp;_nfls=false&amp;amp;_pageLabel=previewPlanPage#" class="action-btns__link" target="_blank"&gt;
+          &lt;div class="action-btns__layout action-btns__layout--home action-btns__layout--golden-grass"&gt;
+            &lt;i class="icon--cart"&gt;&lt;/i&gt;
+            &lt;h2 class="action-btns__heading"&gt;Shop and Compare&lt;/h2&gt;
+          &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt; &lt;!-- End col-md-8 col-sm-12 --&gt; 
+    &lt;div class="col-md-4 col-sm-6"&gt;
+      &lt;div class="action-btns"&gt;
+        &lt;a href="/apply" class="action-btns__link"&gt;
+          &lt;div class="action-btns__layout action-btns__layout--home action-btns__layout--light-blue"&gt;
+            &lt;i class="icon icon--apply"&gt;&lt;/i&gt;
+            &lt;h2 class="action-btns__heading"&gt;Apply for Coverage&lt;/h2&gt;
+          &lt;/div&gt;
+        &lt;/a&gt; 
+      &lt;/div&gt;
+      &lt;div class="action-btns"&gt;
+        &lt;a href="/medi-cal" class="action-btns__link"&gt;
+          &lt;div class="action-btns__layout action-btns__layout--home action-btns__layout--eminence"&gt;
+            &lt;i class="icon icon--medical"&gt;&lt;/i&gt;
+            &lt;h2 class="action-btns__heading"&gt;Medi-Cal Information&lt;/h2&gt;
+          &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+			</code>
+		</pre>
+	</div>
+</div>
 
