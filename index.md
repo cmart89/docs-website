@@ -1,10 +1,8 @@
 ---
-title: Welcome
+title: CoveredCA.com Styleguide
 ---
 
-This is the **Edition** template from [CloudCannon](http://cloudcannon.com/).
-**Edition** is perfect for documenting your product, application or service.
-It's populated with example content to give you some ideas.
+One of our most important challenges at HealthCare.gov is to make it easy for American citizens to enroll in health coverage. This requires us to create a seamless experience for consumers using a wide variety of devices across a number of different platforms, applications, tools, and website features. We’ve created this Styleguide to support our efforts –and to open our work to the public. What we’re doing and why.
 
 ChatApp is a fictional chat application for sending messages and media to others.
 Teams and friend groups would use ChatApp to stay up to date if it existed.
