@@ -23,4 +23,4 @@ This Styleguide is made to aid in contribution efforts for the Page Stewards of 
 * [HBEX.CoveredCA.com](http://hbex.coveredca.com)
 * [Board.CoveredCA.com](http://board.coveredca.com)
 * [Events.CoveredCA.com](https://events.coveredca.com)
-* [Storefronts.CoveredCA.com](https://storefronts.coveredca.com)
+* [Storefronts.CoveredCA.com](https://storefronts.coveredca.com) 
