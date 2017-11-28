@@ -21,6 +21,19 @@ body {
 		}
 	}
 
+	.logo-small {
+		margin-top: 9px;
+		width: 100px !important;
+    height: 80px !important;
+    z-index: 2000;
+	}
+
+	.home-link {
+		text-decoration: none;
+		color: #fff;
+		font-size: 14px;
+	}
+
 	&::before {
 		content: "";
 		background-color: $content-background-color;
@@ -84,7 +97,6 @@ header {
 	top: 0;
 	left: 0;
 	right: 0;
-	overflow-x: hidden;
 	z-index: 1;
 	background-color: $nav-background-color;
 
@@ -94,7 +106,7 @@ header {
 	}
 
 	h1 {
-		padding: $emblem-vertical-padding $emblem-horizontal-padding;
+		padding: $emblem-vertical-padding 0;
 		height: $nav-header-height;
 		box-sizing: border-box;
 		background-color: $brand-colour;
@@ -113,7 +125,6 @@ header {
 		img {
 			height: $emblem-size;
 			width: $emblem-size;
-			margin-right: $space - 5;
 		}
 	}
 
@@ -170,12 +181,14 @@ header {
 
 .content,
 .page-header {
-	max-width: $content-max-width;
-	padding: 0 ($space + 5) $space;
-	margin: $space auto 0 auto;
+	max-width: 946px !important;
+	margin: 60px auto 0 auto !important; 
+	border-bottom: 0 !important;
 }
 
 .page-header {
+	padding-top: 20px;
+
 	h2,
 	h3 {
 		margin: 0;

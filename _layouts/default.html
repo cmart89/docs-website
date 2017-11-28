@@ -7,10 +7,21 @@
 		<meta name="generator" content="Jekyll v{{ jekyll.version }}">
 
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Open+Sans:400,400italic,600,600italic,700,700italic|Inconsolata:400,700">
+
+	  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Application.css pull from production CoveredCA.com -->
+		<link rel="stylesheet" href="https://www.coveredca.com/css/application.css">
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 		<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
+
+		<!-- Modernizer -->
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+	  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
 
 		{% feed_meta %}
 		{% seo %}
@@ -31,8 +42,10 @@
 	<body>
 		<header>
 			<h1>
-				<a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/emblem.svg" width="40" height="40" alt="{{ site.title }} logo"></a>
-				{{ site.title }}
+				<a class="home-link" href="{{ site.baseurl }}/">
+					<img class="logo-small" src="{{ site.baseurl }}https://www.coveredca.com/images/logo.svg" alt="{{ site.title }} logo">
+					{{ site.title }}
+				</a>
 				<button type="button" class="open-nav" id="open-nav"></button>
 			</h1>
 
@@ -73,12 +86,12 @@
 			</nav>
 		</header>
 
-		<section class="main">
+		<section class="container">
 			<div class="page-header">
 				<h2>{% if page.category %}{{ page.category }}{% else %}{{ site.title }}{% endif %}</h2>
 				<h3>{{ page.title }}</h3>
 			</div>
-			<article class="content">
+			<article class="content content--main">
 				{{ content }}
 			</article>
 		</section>
@@ -87,6 +100,87 @@
 			document.getElementById("open-nav").addEventListener("click", function () {
 				document.body.classList.toggle("nav-open");
 			});
-		</script>
+		</script> 
+
+		<!-- jquery ui --> 
+		<script  src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"  integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="  crossorigin="anonymous"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<script src="https://www.coveredca.com/js/quicklinks.js"></script>
+		<script src="https://www.coveredca.com/js/navbar.js"></script>
+		<script src="https://www.coveredca.com/js/search.js"></script>
+		<script src="https://www.coveredca.com/js/eloqua.js"></script> 
+		<script src="https://www.coveredca.com/js/expandable.js"></script>
+		<script src="https://www.coveredca.com/js/responsive-tables.js"></script>
+
+
+		<script>
+      // Scroll To Top - TODO: Move this to external sheet
+      $(document).scroll(function() {
+        var y = $(this).scrollTop();
+        if (y > 800) {
+          $('.to-top').fadeIn(); 
+        } else {
+          $('.to-top').fadeOut(); 
+        }
+      });
+
+      $('.to-top').click(function() {
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+      });
+
+
+      // footer expandables
+      $(document).ready(function(){
+
+        var initialWindowWidth = $(window).width();
+        
+        $(window).on('resize',function(){
+
+          if(initialWindowWidth > 751 && $(window).width() < 751){
+            // console.log('bigger device to mobile...');
+            initialWindowWidth = $(window).width();
+            $('.list--sub-links').hide();
+            $('.footer__heading .fa').addClass('fa-plus-circle').removeClass('fa-minus-circle');
+          }else if(initialWindowWidth < 751 && $(window).width() >= 751){
+            $('.list--sub-links').removeAttr('style');
+            // console.log('mobile to bigger device...');
+            initialWindowWidth = $(window).width();
+          }
+        });
+
+        if($(window).width() < 751){
+          $('.list--sub-links').hide();
+        }
+        $('.footer__heading').on('click',function(){
+          if($(window).width() < 751){
+
+            //footer heading
+            var footerHeading = $(this);
+            //list sub--links
+            var listSubLinks = footerHeading.next('.list--sub-links');
+
+            listSubLinks.slideToggle();
+
+            var footerNav = footerHeading.find('.fa');
+
+            if(footerNav.hasClass('fa-plus-circle')){
+              footerNav.removeClass('fa-plus-circle');
+              footerNav.addClass('fa-minus-circle');
+
+            }else{
+              footerNav.removeClass('fa-minus-circle');
+              footerNav.addClass('fa-plus-circle');
+
+            }
+          }
+        });
+      });
+
+    	</script>
+
 	</body>
 </html>
