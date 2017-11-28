@@ -1,0 +1,119 @@
+---
+title: CCA-panel
+category: Blocks
+order: 1
+---
+
+<h2>Examples</h2>
+
+<div class="row margin-top-65--desktop">
+
+	<div class="col-md-12">
+		
+		<div class="cca-panel cca-panel--if cca-panel--first">
+			<div class="cca-panel__heading cca-panel__heading--if cca-panel__heading--java"> 
+				<h3 class="cca-panel__title cca-panel__title--if"> Panel Title</h3>
+				<div class="cca-panel__graphic cca-panel__graphic--java"> 
+					<div class="graphic graphic--family-umbrella">
+						<!-- <img src="/images/icons/family-umbrella.svg" class="graphic__image" alt=""> -->
+					</div>
+				</div> 
+			</div>
+			<div class="cca-panel__body cca-panel__body--if cca-panel__body--getting-covered">
+				<p class="cca-panel__content cca-panel__content--two-thirds cca-panel__content--if">Panel Body</p>
+				<i class="icon-link cca-panel__glyph cca-panel__glyph--if"></i>
+			</div>
+		</div>
+
+		<div class="cca-panel cca-panel--if">
+			<div class="cca-panel__heading cca-panel__heading--if cca-panel__heading--color-secondary">
+				<h3 class="cca-panel__title cca-panel__title--if ">Panel Title</h3>
+				<div class="cca-panel__graphic cca-panel__graphic--people {% if page.lang == 'es' %}cca-panel__graphic--es-people{%endif%}">
+					<div class="graphic graphic--people {% if page.lang == 'es' %}graphic--es-people{%endif%}">
+						<!-- <img src="/images/icons/people.svg" class="graphic__image" alt=""> -->
+					</div>
+				</div>
+			</div>
+			<div class="cca-panel__body cca-panel__body--if cca-panel__body--special-circumstances">
+				<p class="cca-panel__content cca-panel__content--if">Panel Body</p>
+				<i class="icon-link cca-panel__glyph cca-panel__glyph--if"></i>
+			</div>
+		</div>
+		
+		<div class="cca-panel cca-panel--if">
+			<div class="cca-panel__heading cca-panel__heading--if cca-panel__heading--eminence">
+				<h3 class="cca-panel__title cca-panel__title--if cca-panel__title--medi-cal">Panel Title</h3>
+				<div class="cca-panel__graphic cca-panel__graphic--medi-cal">
+					<div class="graphic graphic--heart">
+						<!-- <img src="/images/icons/heart.svg" class="graphic__image" alt=""> -->
+					</div>
+				</div>
+			</div>
+			<div class="cca-panel__body cca-panel__body--if cca-panel__body--medi-cal">
+				<p class="cca-panel__content cca-panel__content--medi-cal cca-panel__content--if">Panel Body</p>
+				<i class="icon-link cca-panel__glyph cca-panel__glyph--medi-cal"></i>
+			</div>
+		</div>
+
+		
+	</div>
+</div>
+
+
+<div class="expandable expandable--fa">
+	<div class="expandable__trigger">
+		<span class="fa fa-plus-circle expandable__glyph"> </span>
+		<h3 class="expandable__heading"><a class="expandable__link" href="#" aria-expanded="false">Code Snippet</a></h3>
+	</div>
+	<div class="expandable__target">
+		<pre style="width:100%;overflow: auto;">
+			<code class="hljs xml">
+&lt;div class="cca-panel cca-panel--if cca-panel--first"&gt;
+  &lt;div class="cca-panel__heading cca-panel__heading--if cca-panel__heading--java"&gt; 
+    &lt;h3 class="cca-panel__title cca-panel__title--if"&gt; Panel Title&lt;/h3&gt;
+    &lt;div class="cca-panel__graphic cca-panel__graphic--java"&gt; 
+      &lt;div class="graphic graphic--family-umbrella"&gt;
+        &lt;!-- &lt;img src="/images/icons/family-umbrella.svg" class="graphic__image" alt=""&gt; --&gt;
+      &lt;/div&gt;
+    &lt;/div&gt; 
+  &lt;/div&gt;
+  &lt;div class="cca-panel__body cca-panel__body--if cca-panel__body--getting-covered"&gt;
+    &lt;p class="cca-panel__content cca-panel__content--two-thirds cca-panel__content--if"&gt;Panel Body&lt;/p&gt;
+    &lt;i class="icon-link cca-panel__glyph cca-panel__glyph--if"&gt;&lt;/i&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="cca-panel cca-panel--if"&gt;
+  &lt;div class="cca-panel__heading cca-panel__heading--if cca-panel__heading--color-secondary"&gt;
+    &lt;h3 class="cca-panel__title cca-panel__title--if "&gt;Panel Title&lt;/h3&gt;
+    &lt;div class="cca-panel__graphic cca-panel__graphic--people {% if page.lang == 'es' %}cca-panel__graphic--es-people{%endif%}"&gt;
+      &lt;div class="graphic graphic--people {% if page.lang == 'es' %}graphic--es-people{%endif%}"&gt;
+        &lt;!-- &lt;img src="/images/icons/people.svg" class="graphic__image" alt=""&gt; --&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="cca-panel__body cca-panel__body--if cca-panel__body--special-circumstances"&gt;
+    &lt;p class="cca-panel__content cca-panel__content--if"&gt;Panel Body&lt;/p&gt;
+    &lt;i class="icon-link cca-panel__glyph cca-panel__glyph--if"&gt;&lt;/i&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="cca-panel cca-panel--if"&gt;
+  &lt;div class="cca-panel__heading cca-panel__heading--if cca-panel__heading--eminence"&gt;
+    &lt;h3 class="cca-panel__title cca-panel__title--if cca-panel__title--medi-cal"&gt;Panel Title&lt;/h3&gt;
+    &lt;div class="cca-panel__graphic cca-panel__graphic--medi-cal"&gt;
+      &lt;div class="graphic graphic--heart"&gt;
+        &lt;!-- &lt;img src="/images/icons/heart.svg" class="graphic__image" alt=""&gt; --&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="cca-panel__body cca-panel__body--if cca-panel__body--medi-cal"&gt;
+    &lt;p class="cca-panel__content cca-panel__content--medi-cal cca-panel__content--if"&gt;Panel Body&lt;/p&gt;
+    &lt;i class="icon-link cca-panel__glyph cca-panel__glyph--medi-cal"&gt;&lt;/i&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+			</code>
+		</pre>
+	</div>
+</div>
+
