@@ -2,35 +2,25 @@
 title: CoveredCA.com Styleguide
 ---
 
-One of our most important challenges at HealthCare.gov is to make it easy for American citizens to enroll in health coverage. This requires us to create a seamless experience for consumers using a wide variety of devices across a number of different platforms, applications, tools, and website features. We’ve created this Styleguide to support our efforts –and to open our work to the public. What we’re doing and why.
+One of our most important challenges at Covered California is to make it easy for Californian citizens to enroll in health coverage. This requires us to create a seamless experience for consumers using a wide variety of devices across a number of different platforms, applications, tools, and website features. We’ve created this Styleguide to support our efforts with making the consumer jorney consistent, easy, and accessible for all.
 
-ChatApp is a fictional chat application for sending messages and media to others.
-Teams and friend groups would use ChatApp to stay up to date if it existed.
 
-> [Sign up](http://example.com/signup) or learn more about ChatApp at [example.com](http://example.com/).
+This Styleguide is made to aid in contribution efforts for the Page Stewards of each deparment, the design team, and the development team. Please feel free to contribute to this Styleguide by signing into [Cloud Cannon](https://app.cloudcannon.com/saml/2).
 
-### Getting Started
+> Take a look at the live site — [CoveredCA.com](https://www.coveredca.com).
 
-Getting a message sent is quick and easy with ChatApp:
+## Getting Started
+ 
+[CoveredCA.com](https://www.coveredca.com) is organized with various building blocks. For example, a expandable/collapsible block, a hero block, etc. 
 
-1. Sign up for an account
-2. Add your friends from their email addresses
-3. Type a message or send a photo
+1. View all the building block options to left navigation under "Blocks".
+2. Select a block. Here you can view an example of use. 
+3. For designers and developers, there is additional information expandable for each block.
 
-> Feel free to send us a message at [feedback@example.com](mailto:feedback@example.com) with your feedback.
+### Additional Resources
 
-### Features
-
-Explore more of ChatApp by reading about our features:
-
-#### Media
-
-Send images, videos and other media to people. Sources include your computer, phone and Facebook.
-
-#### Contact Syncing
-
-Sync your contact list with your phone and/or Facebook contacts. Never lose your contacts between devices again!
-
-#### Devices
-
-ChatApp is available everywhere. Find out how to set it up on your all your devices.
+* [Page Steward Guide](https://intranet.coveredca.com/communications/_layouts/15/WopiFrame.aspx?sourcedoc=/communications/Shared%20Documents/PageStewardDocsForSharePoint.pdf&action=default&DefaultItemOpen=1)
+* [HBEX.CoveredCA.com](http://hbex.coveredca.com)
+* [Board.CoveredCA.com](http://board.coveredca.com)
+* [Events.CoveredCA.com](https://events.coveredca.com)
+* [Storefronts.CoveredCA.com](https://storefronts.coveredca.com)

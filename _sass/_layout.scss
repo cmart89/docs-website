@@ -7,6 +7,10 @@ body {
 	height: auto;
 	overflow-x: hidden;
 	background-color: $body-background-color;
+  letter-spacing: .01rem;
+  font-size: 1.8em;
+  font-weight: 400;
+  line-height: 1.75em;
 
 	&.nav-open {
 		overflow: hidden;
@@ -171,6 +175,7 @@ header {
 	position: relative;
 	background-color: $content-background-color;
 	color: $content-color;
+	margin-top: 15px !important;
 
 	h3::before {
 		content: "";
@@ -182,7 +187,7 @@ header {
 .content,
 .page-header {
 	max-width: 946px !important;
-	margin: 60px auto 0 auto !important; 
+	margin: 60px auto 0 auto; 
 	border-bottom: 0 !important;
 }
 
@@ -403,7 +408,7 @@ h4 svg {
 
 	.date {
 		color: #888;
-		font-style: italic;
+		font-style: italic; 
 	}
 }
 
@@ -423,10 +428,11 @@ h4 svg {
 }
 
 blockquote {
-	border-left: 5px solid #FD0;
-	padding: 10px 15px;
-	margin-left: -15px;
-	margin-right: -10px;
+	border-left: 5px solid #FD0; 
+	padding: 10px 15px !important;
+	margin-left: -15px !important;
+	margin-right: -10px !important;
+	margin: 18px -10px 18px -15px !important; 
 	background-color: $brand-colour-light;
 	border-color: $brand-colour;
 
