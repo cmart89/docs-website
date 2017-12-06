@@ -182,9 +182,9 @@ order: 1
 			</tbody>
 		</table>
 
-		<h3>Basic Table in Mobile View</h3>
+		<h3 class="margin-top-50">Basic Table in Mobile View</h3>
 
-		<img src="\images\examples\mobile\basic-tables.png" alt="mobile example of tables">
+		<img class="margin-tb-50" src="\images\examples\mobile\basic-tables.png" alt="mobile example of tables">
 		<a href="https://www.coveredca.com/agents/related-news" target="_blank">See live example</a>
 	</div>
 
@@ -792,9 +792,9 @@ order: 1
 			<div><span class="table__legend table__legend--does-not-apply-desktop"></span>Plan feature does not apply to the metal tier</div>
 		</div>
 
-		<h3>Cost Shares Table in Mobile View</h3>
+		<h3 class="margin-top-50">Cost Shares Table in Mobile View</h3>
 
-		<img src="/images/examples/mobile/cost-sharing-tables.png" alt="Cost Shares Table Mobile View">
+		<img class="margin-tb-50" src="/images/examples/mobile/cost-sharing-tables.png" alt="Cost Shares Table Mobile View">
 
 		<a href="https://www.coveredca.com/individuals-and-families/getting-covered/prescription-drugs/" target="_blank">See live example</a>
 
