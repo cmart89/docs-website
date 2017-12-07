@@ -6,6 +6,8 @@ order: 1
 
 ## Example
 
+These are the standard "quicklinks" used accross content sections. They will be displayed to the right of your content. The mobile view will hide the quicklinks and appear again by clicking on a yellow button titled "More". The background color of the box title, for example the color for the box of "Medi-Cal" below, will vary according to your section. 
+
 <div class="row margin-top-65--desktop">
 	<div class="col-md-4 sidebar">
 
