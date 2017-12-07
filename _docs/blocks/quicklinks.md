@@ -21,7 +21,7 @@ These are the standard "quicklinks" used accross content sections. They will be 
 
 				<li class="quicklinks__list-item "><a class="quicklinks__link" href="/apply/"><span class="quicklinks__link-text">Medi-Cal Application</span><i class="icon-link pull-right"></i></a></li>			 
 
-				<li class="quicklinks__list-item "><a class="quicklinks__link" href="/medi-cal/renewing-medi-cal-coverage"><span class="quicklinks__link-text">Renewing MediCal Coverage/documents-to-confirm-eligibility</span><i class="icon-link pull-right"></i></a></li>			 
+				<li class="quicklinks__list-item "><a class="quicklinks__link" href="/medi-cal/renewing-medi-cal-coverage"><span class="quicklinks__link-text">Renewing MediCal Coverage</span><i class="icon-link pull-right"></i></a></li>			 
 
 				<li class="quicklinks__list-item "><a class="quicklinks__link" href="/medi-cal/families"><span class="quicklinks__link-text">Medi-Cal for Families (and Former Foster Youth)</span><i class="icon-link pull-right"></i></a></li>			 
 
