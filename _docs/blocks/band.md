@@ -6,6 +6,8 @@ order: 1
 
 ## Examples
 
+<p>This band portion of the block is the gray surrounding box. This area can be used to hold content, videos, etc.</p>
+
 <div class="row margin-top-65--desktop">
 
 	<div class="col-md-12">
