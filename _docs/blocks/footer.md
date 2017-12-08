@@ -1,10 +1,12 @@
 ---
-title: Expandable
+title: Footer
 category: Blocks
 order: 1
 ---
 
 ## Examples
+
+This is the skeleton of the footer.
 
 <div class="row margin-top-65--desktop">
 
