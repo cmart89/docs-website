@@ -1,5 +1,5 @@
 ---
-title: Graident Box 
+title: Gradient Box 
 category: Blocks
 order: 1
 ---

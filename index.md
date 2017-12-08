@@ -11,7 +11,7 @@ This Styleguide is made to aid in contribution efforts for the Page Stewards of 
 
 ## Getting Started
  
-[CoveredCA.com](https://www.coveredca.com) is organized with various building blocks. For example, a expandable/collapsible block, a hero block, etc. 
+[CoveredCA.com](https://www.coveredca.com) is organized with various building blocks. For example, an expandable/collapsible block, a hero block, various types of button blocks, etc. 
 
 1. View all the building block options to left navigation under "Blocks".
 2. Select a block. Here you can view an example of use. 
