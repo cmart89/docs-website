@@ -1,5 +1,5 @@
 ---
-title: Btn
+title: Buttons
 category: Blocks
 order: 1
 ---

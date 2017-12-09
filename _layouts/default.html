@@ -13,17 +13,14 @@
 		<!-- Application.css pull from production CoveredCA.com -->
 		<link rel="stylesheet" href="https://www.coveredca.com/css/application.css">
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-		<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
-		<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
-		<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
 
 		<!-- Modernizer -->
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 
 	  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+ 
 
-
-		{% feed_meta %}
+		{% feed_meta %} 
 		{% seo %}
 
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
