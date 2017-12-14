@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Refactored Modules</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- search bar -->
+				<style>
+					.search-bar{
+						display: block;
+						white-space: nowrap;
+						width: 100%;
+					}
+					.search-bar__label{
+						display: none;
+					}
+					.search-bar__input{
+						display: inline-block;
+						min-height: 22px;
+						vertical-align: top;
+						padding-left: 15px;
+						width: 80%;
+						margin-right:5%;
+					}
+					.search-bar__input--primary{
+						border: 2px solid #2977A4;
+					}
+					.search-bar__btn{
+						display: inline-block;
+						min-height: 22px;
+						width:15%;
+						vertical-align: top;
+					}
+					.search-bar__btn--primary{
+						border-radius: 5px;
+						background-color: #2977A4;
+						border: 1px solid #2977A4;
+					}
+				</style>
+
+				<form role="search" class="search-bar form-cse">
+          
+		          <label for="search-input" class="search-bar__label hidden">Site Search</label>
+		          
+		          <input type="search" title="Enter text to search" class="search-bar__input search-bar__input--primary gcse-searchbox" placeholder=" Search " required="">
+		          
+		          <button class="btn search-bar__btn search-bar__btn--primary" aria-label="Search"><img src="https://www.google.com/uds/css/v2/search_box_icon.png" alt=""></button>
+		        
+		        </form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
