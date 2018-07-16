@@ -1,0 +1,243 @@
+body{
+        width: 100%;
+        margin: 0;
+      }
+      
+      .tile-hp{
+        margin-top: 24px;
+      }
+
+      .tile-hp--hero{
+        clear:both;
+        padding: 15px;
+        background: no-repeat;
+        background-size: cover;
+        background-position: center top; 
+        height: 300px;
+        margin-top: 0;
+      }
+
+      .tile-hp--hero .tile-hp__primaryText{
+        width: 50%;
+        font-size: 32px;
+      }
+
+      .tile-hp--hero .tile-hp__button{
+      }
+
+      @media only screen and (min-width: 424px){
+        .tile-hp--hero{
+          height: 300px;
+        }
+      }
+
+      @media only screen and (min-width: 531px){
+        .tile-hp--hero{
+          height: 400px;
+        }
+      }
+
+      @media only screen and (min-width: 741px){
+        .tile-hp--hero{
+          height: 500px;
+        }
+      }
+      @media only screen and (min-width: 920px){
+        .tile-hp--hero{
+          height: 900px;
+          background-position: center center;
+          background-size: cover;
+        }
+        .tile-hp--hero .tile-hp__primaryText{
+          padding-right: 20%;
+          text-align: right;
+        }
+
+        .tile-hp--abs .tile__padding{
+          padding-right: 150px;
+          padding-left: 150px;
+        }
+        .tile-hp--abs .tile__primaryText{
+          font-size: 30px !important;
+        }
+
+        .tile-hp--general .tile-hp__primaryText{
+          font-size: 30px !important;
+        }
+
+        .tile-hp--general-2 .tile-hp__primaryText{
+          font-size: 30px !important;
+        }
+        .tile-hp--general-2 .tile-hp__secondaryText{
+          font-size: 16px !important;
+        }
+        .tile-hp--general-2 .tile-hp__thirdText{
+          font-size: 20px !important;
+        }
+        .tile-hp--general-2 .tile-hp__input{
+          padding: 10px 80px !important;
+        }
+      }
+      @media only screen and (min-width: 1350px){
+        .tile-hp--abs .tile__padding{
+          padding-right: 300px;
+          padding-left: 300px;
+        }
+      }
+
+      .tile-hp--general{
+        text-align: center;
+      }
+
+      .tile-hp--general .tile-hp__primaryText{
+        font-size: 24px;
+        color: black;
+        margin-bottom: 0;
+      }
+
+      .tile-hp--general .tile-hp__secondaryText{
+        color: gray;
+        margin-top: 0;
+      }
+
+      .tile-hp--general .tile-hp__button{
+        margin-bottom: 24px;       
+        padding-bottom: 24px; 
+      }
+
+      .tile-hp--general .tile-hp__button button{
+        border-radius: 10px;
+        width: 60%;
+        max-width: 542px;
+        text-align: center;
+        padding: 15px;
+      }
+
+      .tile-hp--general-2{
+        text-align: center;
+        padding-bottom: 24px;
+      }
+
+      .tile-hp--general-2 .tile-hp__primaryText{
+        font-size: 20px;
+        color: black;
+        margin-bottom: 0;
+      }
+
+      .tile-hp--general-2 .tile-hp__secondaryText{
+        color: gray;
+        margin-top: 0;
+        font-size: 12px;
+      }
+
+      .tile-hp--general-2 .tile-hp__thirdText{
+        font-size: 15px;
+      }
+
+      .tile-hp--general-2 .tile-hp__button{
+        margin-bottom: 24px;
+      }
+
+      .tile-hp--general-2 .tile-hp__input{
+        border: 1px solid #9A9A9A;
+        border-radius: 25px;
+        background: url('/images/homepage/icons/locator-icon.svg') no-repeat;
+        background-size: 40%;
+        background-position: 120% center;
+        padding: 5px 30px;
+      }
+
+      .tile-hp--sc-m-hod{
+        padding: 24px;
+      }
+
+      .tile-hp--sc-m-hod .tile-hp__container-link{
+        display: block;
+      }
+
+      .tile-hp--sc-m-hod .tile-hp__icon{
+        display: inline-block;
+        width: 33%;
+        max-height: 60px;
+      }
+      .tile-hp--sc-m-hod .tile-hp__primaryText{
+        display: inline-block;
+        width: 33%;
+      }
+      .tile-hp--sc-m-hod .tile-hp__button{
+        display: inline-block;
+        width: 33%;
+      }
+
+      .tile-hp--abs{
+        background-color: #E7E7E9;
+      }
+      .tile-hp--abs .tile__primaryText{
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        margin: 24px 0;
+        font-size: 24px;
+      }
+      .tile-hp--abs .tile__button{
+        display: inline-block;
+        background-color: #FFFFFF;
+        height: 152px;
+        width: 90%;
+        max-width: 130px;
+        min-width: 120px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px 1px #888888;
+        margin-bottom: 30px;
+        padding-top: 26px;
+        text-decoration: none;
+        color: black;
+      }
+      .tile-hp--abs .tile__button:hover {
+        background-color: #F8DA91;
+      }
+      .tile-hp--abs .tile__button:active {
+        background-color: #F8DA91;
+      }
+      .tile-hp--abs .tile__icon{
+        top: 25%;
+      }
+      .tile-hp--abs .tile__secondaryText{
+        font-size: 12px;
+      }
+      
+      .navbar--hp{
+        display:block;
+      }
+      .navbar--hp .navbar__logo{
+        float: left;
+        display: inline-block;
+      }
+      .navbar--hp .navbar__store-locator{
+        background: url(../images/homepage/icons/locator-icon.svg);
+        background-size: 300%;
+        background-position: center center;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        float: right;
+      }
+      .navbar--hp .navbar__hamburger{
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        float: right;
+      }
+      .navbar--hp .menu-toggle__span{
+        border: 2px solid;
+        border-color: #636466;
+        border-radius: 5px;
+      }
+
+      ::-webkit-input-placeholder {
+          font-style: italic;
+      }
+       
+      ::-moz-placeholder {
+          font-style: italic;
+      }

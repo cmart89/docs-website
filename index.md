@@ -17,10 +17,10 @@ This Styleguide is made to aid in contribution efforts for the Page Stewards of 
 2. Select a block. Here you can view an example of use. 
 3. For designers and developers, there is additional information expandable for each block.
 
-### Additional Resources
+### Additional Resources  
 
 * [Page Steward Guide](https://intranet.coveredca.com/communications/_layouts/15/WopiFrame.aspx?sourcedoc=/communications/Shared%20Documents/PageStewardDocsForSharePoint.pdf&action=default&DefaultItemOpen=1)
 * [HBEX.CoveredCA.com](http://hbex.coveredca.com)
 * [Board.CoveredCA.com](http://board.coveredca.com)
-* [Events.CoveredCA.com](https://events.coveredca.com)
+* [Events.CoveredCA.com](https://events.coveredca.com) 
 * [Storefronts.CoveredCA.com](https://storefronts.coveredca.com) 
